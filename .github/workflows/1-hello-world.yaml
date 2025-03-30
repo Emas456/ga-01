@@ -11,3 +11,16 @@ jobs:
 
             - name: Print Goodbye World
               run: echo "Goodbye World"
+
+
+    second-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Print Hi To You
+              run: echo "Hi To You"
+
+            - name: Print I Will Succes
+              run: exit 0
+
+            - name: Print GoodBye
+              run: echo "GoodBye"
